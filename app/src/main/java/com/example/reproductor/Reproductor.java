@@ -35,6 +35,7 @@ public class Reproductor extends AppCompatActivity implements MediaController.Me
         artista=detalles.getString("artista");
         imagen=detalles.getInt("imagen");
         pista=detalles.getInt("pista");
+
         h=new Handler();
         caratula=findViewById(R.id.imageView);
         caratula.setImageResource(imagen);
